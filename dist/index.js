@@ -1,5 +1,4 @@
 import express from "express";
-console.log(process.env.MONGO_URL);
 import Jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import { ContentModel, LinkModel, TagsModel, UserModel } from "./db.js";
